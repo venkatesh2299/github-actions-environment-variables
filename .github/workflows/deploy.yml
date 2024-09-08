@@ -6,7 +6,7 @@ on:
       - dev
 
 env: 
-  MONGODB_DB_NAME: gha-demo-db # workflow level env: common db name for all jobs to use.
+  MONGODB_DB_NAME: gha-demo-db # workflow level env: common db name for all jobs to  use.
 jobs:
   test:
     environment: testing
